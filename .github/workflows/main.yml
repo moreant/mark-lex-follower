@@ -2,7 +2,7 @@ name: 'Auto get lex follower'
 
 on: 
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/10 * * * *"
   watch:
     types: [started]
    
