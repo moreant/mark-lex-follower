@@ -1,11 +1,6 @@
 name: 'Auto get lex follower'
 
 on: 
-  release:
-    types: [published]
-  push:
-    tags:
-    - 'v*'
   schedule:
     - cron: "* * * * *"
   watch:
